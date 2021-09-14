@@ -16,6 +16,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 16px;
@@ -37,8 +39,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-  margin-left: 5rem;
-  padding: 1rem;
+  margin-left: 7rem;
+  font-size: 1rem;
+  padding: .4rem .4rem .4rem;
+  min-height: 45px;
+  margin-bottom: 1rem;
+  margin-top: .7rem;
 }
 
 /* NavBar */
@@ -327,8 +333,8 @@ main {
 .grupo {
   background-color: #ffffff8c;
   flex-direction: column;
-  width: 290px;
-  height: 240px;
+  width: 320px;
+  height: 270px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #1e1e24;
   border-radius: 2rem;
@@ -343,7 +349,9 @@ main {
 .grupo p {
   font-size: 30px;
   margin-top: .5rem;
+  margin-bottom: .2rem;
 }
+
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
